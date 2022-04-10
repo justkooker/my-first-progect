@@ -26,8 +26,8 @@ body {
   margin: 20px;
 }
 .card_image {
-  width: 240px;
-  height: 360px;
+  width: 200px;
+  height: 300px;
   object-fit: cover;
 }
 .card_image:hover {
