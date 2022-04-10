@@ -1,7 +1,7 @@
 import { createGallery } from "../modules/gallery";
 
 const queryOptions = {
-  baseUrl: "http://www.omdbapi.com/",
+  baseUrl: "https://www.omdbapi.com/",
   apiKey: "9eb9d26e",
 };
 const fetchQuery = function (query) {
