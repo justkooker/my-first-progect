@@ -25,7 +25,7 @@ const notifyUser = function (notificationMessage) {
     notificationContainer.insertAdjacentHTML("beforeend", markup);
     notificationDistruct(notificationContainer);
   } else if (
-    document.querySelector(".notification_container").children.length > 10
+    document.querySelector(".notification_container").children.length > 8
   ) {
     return;
   } else {
